@@ -62,4 +62,14 @@ where countries = 'Nigeria' and years = '2017' and brands ='Hero'
 calculates the total profit for each country from 2017 to 2019, and orders the results by total profit in descending order
 
 ```
+SELECT countries,
+      CASE
+	     WHEN COUNTRIES IN ('Nigeria', 'Ghana') then 'Anglophone'
+		 Else 'Francophone'
+End as CountriesGroup,
+sum(Profit) as TotalProfit from [dbo].[International Breweries]
+where years in ('2017', '2018', '2019')
+Group by Countries
+order by 3 desc
 
+```
