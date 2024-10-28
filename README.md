@@ -20,15 +20,15 @@ Data columns:
 - MONTHS
 - YEARS
 
-### Key SQL Queries
+## Key SQL Queries
 
- Calulate the total profit
+- Calulate the total profit
  
  ```
 select sum(profit) as TotalProfit from [dbo].[International Breweries]
 
 ```
-Calculate the total profit for Senegal
+- Calculate the total profit for Senegal
 
 ```
 select sum(profit) as TotalProfit from [dbo].[International Breweries]
@@ -36,7 +36,7 @@ where countries = 'Senegal'
 ```
 Provided insight into how much profit was contributed in Senegal, allowing for a profit-based performance evaluation within a specific market. 
 
-Calculate the total profit for Nigeria in 2019
+- Calculate the total profit for Nigeria in 2019
 
 ```
 select sum(profit) as TotalProfit from [dbo].[International Breweries]
@@ -45,7 +45,7 @@ where countries = 'Nigeria' and YEARs = '2019'
 ```
 Provided insight into how much profit was contributed in Nigeria in 2019, allowing for a profit-based performance evaluation within a specific market. 
 
-Calculate the total profit and brands for Nigeria in 2017 in descending order
+- Calculate the total profit and brands for Nigeria in 2017 in descending order
 
 ```
 
@@ -58,7 +58,7 @@ order by 2 desc
 ```
 Provided insight into how much each brand contributed to the profit in Nigeria in 2017, allowing for a brand-based performance evaluation within a specific market.
 
-Calculate the total profit for Heros Brand in Nigeria 2017
+- Calculate the total profit for Heros Brand in Nigeria 2017
 
 ```
 select  sum(profit) as TotalProfitHero from [dbo].[International Breweries]
@@ -67,7 +67,7 @@ where countries = 'Nigeria' and years = '2017' and brands ='Hero'
 ```
 Provided insight into how much Hero brand contributed to the profit in Nigeria in 2017, allowing for a brand-based performance evaluation within a specific market.
 
-calculates the total profit for each country from 2017 to 2019, and orders the results by total profit in descending order
+- calculates the total profit for each country from 2017 to 2019, and orders the results by total profit in descending order
 
 ```
 SELECT countries,
@@ -82,3 +82,21 @@ order by 3 desc
 
 ```
 Categorized countries into 'Anglophone' and 'Francophone' regions, allowing for regional performance analysis. It showed that 'Anglophone' markets like Nigeria typically yielded higher profits compared to Francophone regions.
+
+- Calculated the Total pofits for Year-over-Year Growth Analysis
+```
+SELECT years, SUM(profit) AS TotalProfit
+FROM [dbo].[International Breweries]
+WHERE countries = 'Nigeria' AND brand = 'Hero'
+GROUP BY years
+ORDER BY years;
+```
+Tracked the growth trend for the Hero brand in Nigeria, giving visibility into performance changes over multiple years.
+
+## Analysis Insights
+- Top Markets by Profit: Nigeria emerged as the highest-grossing country, especially for brands like Hero.
+- Anglophone vs. Francophone: Anglophone regions had higher profits than Francophone, indicating potential for focused marketing and resource allocation in English-speaking markets.
+- Yearly Profit Growth: Key brands displayed consistent year-over-year growth, indicating brand loyalty and market potential.
+
+## Outcome Summary
+This project provided actionable insights into which brands and regions generate the most profit, segmented the data based on linguistic regions for tailored strategies, and identified potential growth markets. The findings support targeted marketing efforts, resource allocation, and strategic decision-making for International Breweries’ leadership.
