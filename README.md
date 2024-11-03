@@ -73,6 +73,8 @@ select  sum(profit) as TotalProfitHero from [dbo].[International Breweries]
 where countries = 'Nigeria' and years = '2017' and brands ='Hero'
 
 ```
+![](https://github.com/sharifahstella/LITA-Class-Documentation-SQL/blob/main/hero.PNG) 
+
 Provided insight into how much Hero brand contributed to the profit in Nigeria in 2017, allowing for a brand-based performance evaluation within a specific market.
 
 - calculates the total profit for each country from 2017 to 2019, and orders the results by total profit in descending order
