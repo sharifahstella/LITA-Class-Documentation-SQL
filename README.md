@@ -47,6 +47,8 @@ select sum(profit) as TotalProfit from [dbo].[International Breweries]
 where countries = 'Nigeria' and YEARs = '2019'
 
 ```
+![](https://github.com/sharifahstella/LITA-Class-Documentation-SQL/blob/main/nigera.PNG)
+
 Provided insight into how much profit was contributed in Nigeria in 2019, allowing for a profit-based performance evaluation within a specific market. 
 
 - Calculate the total profit and brands for Nigeria in 2017 in descending order
