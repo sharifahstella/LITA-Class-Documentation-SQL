@@ -101,6 +101,8 @@ WHERE countries = 'Nigeria' AND brand = 'Hero'
 GROUP BY years
 ORDER BY years;
 ```
+![](https://github.com/sharifahstella/LITA-Class-Documentation-SQL/blob/main/cout.PNG)
+
 Tracked the growth trend for the Hero brand in Nigeria, giving visibility into performance changes over multiple years.
 
 ## Analysis Insights
