@@ -28,6 +28,8 @@ Data columns:
 select sum(profit) as TotalProfit from [dbo].[International Breweries]
 
 ```
+![](https://github.com/sharifahstella/LITA-Class-Documentation-SQL/blob/main/profit.PNG)
+
 - Calculate the total profit for Senegal
 
 ```
