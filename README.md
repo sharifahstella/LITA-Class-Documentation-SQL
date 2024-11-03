@@ -38,6 +38,8 @@ where countries = 'Senegal'
 ```
 Provided insight into how much profit was contributed in Senegal, allowing for a profit-based performance evaluation within a specific market. 
 
+![](https://github.com/sharifahstella/LITA-Class-Documentation-SQL/blob/main/profit.PNG)
+
 - Calculate the total profit for Nigeria in 2019
 
 ```
