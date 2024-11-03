@@ -62,6 +62,8 @@ Group by Brands
 order by 2 desc
 
 ```
+![](https://github.com/sharifahstella/LITA-Class-Documentation-SQL/blob/main/brand.PNG)
+
 Provided insight into how much each brand contributed to the profit in Nigeria in 2017, allowing for a brand-based performance evaluation within a specific market.
 
 - Calculate the total profit for Heros Brand in Nigeria 2017
