@@ -112,3 +112,18 @@ Tracked the growth trend for the Hero brand in Nigeria, giving visibility into p
 
 ## Outcome Summary
 This project provided actionable insights into which brands and regions generate the most profit, segmented the data based on linguistic regions for tailored strategies, and identified potential growth markets. The findings support targeted marketing efforts, resource allocation, and strategic decision-making for International Breweries’ leadership.
+
+## Learning Outcomes 
+
+Here are some key learning outcomes thati gained from the training program focused on SQL (Structured Query Language):
+
+- Understanding of Database Concepts:Define key concepts such as databases, tables, schemas, and relationships.
+  Explain the purpose and structure of relational databases.
+- SQL Syntax Proficiency:Write and interpret basic SQL statements and Understand SQL syntax, keywords, and data types.
+- Data Retrieval:Use SELECT statements to retrieve data from one or more tables.Apply filtering using WHERE clauses, sorting with ORDER BY, and grouping with GROUP BY.
+- Data Manipulation:Perform data insertion, updates, and deletions using INSERT, UPDATE, and DELETE statements.Understand transaction control with COMMIT and ROLLBACK.
+- Joins and Relationships:Utilize INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN to combine data from multiple tables.Explain primary and foreign key relationships and their importance in relational databases.
+- Aggregation and Functions:Use aggregate functions like COUNT, SUM, AVG, MIN, and MAX to summarize data.Apply built-in SQL functions for data manipulation (e.g., string, date functions).
+- Subqueries and Nested Queries:Write and understand subqueries and their applications in complex queries.Use correlated subqueries for more advanced data retrieval.
+
+
