@@ -1,4 +1,5 @@
-I actively learnt alot in the class of SQL queries where by Mr.Femi taught us alot of parts in the SQL such as create,Insert into,Drop,Truncate,update,exetra whereby we created a database in the SQL server manageent studio that he told us to download.There fore he also gave us to analyse a CSV file called international Breweries.
+I actively learnt alot in the class of SQL queries where by Mr.Femi Ayodele taught us alot of parts in the SQL such as create,Insert into,Drop,Truncate,delete,update,exetra whereby we created a database in the SQL server management studio that he told us to download.There fore he also gave us to analyse a CSV file called international Breweries.
+
 
 # International Breweries
 This involves a range of queries designed to assess key metrics such as production, sales, distribution, inventory, and revenue. Here are a few examples that could form the basis of such an analysis:
