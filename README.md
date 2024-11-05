@@ -22,7 +22,7 @@ Data columns:
 
 ## Key SQL Queries
 
-- Calulate the total profit
+- Calulates the total profit
  
  ```
 select sum(profit) as TotalProfit from [dbo].[International Breweries]
@@ -30,7 +30,7 @@ select sum(profit) as TotalProfit from [dbo].[International Breweries]
 ```
 ![](https://github.com/sharifahstella/LITA-Class-Documentation-SQL/blob/main/profit.PNG)
 
-- Calculate the total profit for Senegal
+- Calculates the total profit for Senegal
 
 ```
 select sum(profit) as TotalProfit from [dbo].[International Breweries]
@@ -40,7 +40,7 @@ Provided insight into how much profit was contributed in Senegal, allowing for a
 
 ![](https://github.com/sharifahstella/LITA-Class-Documentation-SQL/blob/main/profit.PNG)
 
-- Calculate the total profit for Nigeria in 2019
+- Calculates the total profit for Nigeria in 2019
 
 ```
 select sum(profit) as TotalProfit from [dbo].[International Breweries]
@@ -66,7 +66,7 @@ order by 2 desc
 
 Provided insight into how much each brand contributed to the profit in Nigeria in 2017, allowing for a brand-based performance evaluation within a specific market.
 
-- Calculate the total profit for Heros Brand in Nigeria 2017
+- Calculates the total profit for Heros Brand in Nigeria 2017
 
 ```
 select  sum(profit) as TotalProfitHero from [dbo].[International Breweries]
@@ -77,7 +77,7 @@ where countries = 'Nigeria' and years = '2017' and brands ='Hero'
 
 Provided insight into how much Hero brand contributed to the profit in Nigeria in 2017, allowing for a brand-based performance evaluation within a specific market.
 
-- calculates the total profit for each country from 2017 to 2019, and orders the results by total profit in descending order
+- Calculates the total profit for each country from 2017 to 2019, and orders the results by total profit in descending order
 
 ```
 SELECT countries,
